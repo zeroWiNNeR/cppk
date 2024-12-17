@@ -1,0 +1,29 @@
+<source-systems version="1"
+                name="default"
+                storageId="default"
+                createdBy="admin"
+                createDate="2024-07-22T12:23:51.906540424Z"
+                instanceId="default"
+                typeId="SOURCE_SYSTEMS">
+    <source-system name="universe" weight="100" description="Default admin source system." admin="true">
+        <properties/>
+    </source-system>
+    <source-system name="Express" weight="90" description="АСУ Экспресс" admin="false">
+        <properties/>
+    </source-system>
+    <source-system name="OMIU" weight="90" description="ПС ОМИУ" admin="false">
+        <properties/>
+    </source-system>
+    <source-system name="TSOPPD" weight="90" description="ТСОППД" admin="false">
+        <properties/>
+    </source-system>
+    <source-system name="NIIAS" weight="90" description="НИИАС (ГИС РЖД)" admin="false">
+        <properties/>
+    </source-system>
+    <source-system name="AD" weight="90" description="Active Directory" admin="false">
+        <properties/>
+    </source-system>
+    <source-system name="ALDPro" weight="90" description="ALD Pro" admin="false">
+        <properties/>
+    </source-system>
+</source-systems>
