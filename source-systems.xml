@@ -26,4 +26,7 @@
     <source-system name="ALDPro" weight="90" description="ALD Pro" admin="false">
         <properties/>
     </source-system>
+    <source-system name="MIIT" weight="90" description="MIIT" admin="false">
+        <properties/>
+    </source-system>
 </source-systems>
