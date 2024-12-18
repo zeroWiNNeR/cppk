@@ -840,14 +840,14 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
-            <simpleAttribute name="TypeOrganization" displayName="Тип организации" description="" readOnly="false" hidden="false" nullable="false" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="">
+            <simpleAttribute name="TypeOrganization" displayName="Тип организации" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
                 <dictionaryDataType>Внешняя организация</dictionaryDataType>
                 <dictionaryDataType>ОАО Центральная ППК</dictionaryDataType>
             </simpleAttribute>
-            <simpleAttribute name="Organization" displayName="Организация" description="" readOnly="false" hidden="false" nullable="false" order="3" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="true" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="Organizations" lookupEntityCodeAttributeType="Integer">
+            <simpleAttribute name="Organization" displayName="Организация" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="true" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="Organizations" lookupEntityCodeAttributeType="Integer">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
@@ -916,7 +916,7 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
-            <simpleAttribute name="Email" displayName="Эл. почта" description="" readOnly="false" hidden="false" nullable="false" order="11" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+            <simpleAttribute name="Email" displayName="Эл. почта" description="" readOnly="false" hidden="false" nullable="true" order="11" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -936,7 +936,7 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
-            <simpleAttribute name="Position" displayName="Должность" description="" readOnly="false" hidden="false" nullable="false" order="30" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="true" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="Positions" lookupEntityCodeAttributeType="Integer">
+            <simpleAttribute name="Position" displayName="Должность" description="" readOnly="false" hidden="false" nullable="true" order="30" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="true" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="Positions" lookupEntityCodeAttributeType="Integer">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
