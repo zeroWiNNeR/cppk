@@ -74,10 +74,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="5" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="InfluenceFC" displayName="Влияния причин неисправности оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -91,6 +111,16 @@
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
             <simpleAttribute name="Number" displayName="Number" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="Integer" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -136,6 +166,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="7" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="8" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="Gender" displayName="Пол" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -149,6 +189,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="CategoriesKE" displayName="Категории оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -157,10 +207,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="ExemptionGroups" displayName="Группы льгот" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="false" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -269,6 +339,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="21" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="22" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="Structures" displayName="Структурные подразделения" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -282,10 +362,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="TrainType" displayName="Типы эксплуатируемых поездов" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -341,6 +441,16 @@
                 <lookupEntitySearchAttributes>Code</lookupEntitySearchAttributes>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="8" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="9" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
             <aliasCodeAttributes name="Code" displayName="Код категории ПД" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
@@ -365,6 +475,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="5" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="6" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="ExpressTicketTypes" displayName="Типы ПД АСУ «Экспресс-3»" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -379,6 +499,16 @@
                 <lookupEntitySearchAttributes>Name</lookupEntitySearchAttributes>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
             <aliasCodeAttributes name="Code" displayName="Код типа ПД" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" unique="true"/>
         </lookup>
@@ -389,6 +519,16 @@
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="false" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -406,10 +546,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="TeamsKE" displayName="Группы сопровождения оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -422,10 +582,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="ProducersKE" displayName="Производители оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -438,6 +618,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="SubcategoriesKE" displayName="Подкатегории оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -446,10 +636,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="TypeFC" displayName="Типы причин неисправности оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -474,6 +684,16 @@
                 <dictionaryDataType>Участок производственный</dictionaryDataType>
                 <dictionaryDataType>Участок кассиров-контроллеров</dictionaryDataType>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="5" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="CategoryIncident" displayName="Категории инцидентов" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -487,10 +707,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="TypesKE" displayName="Статусы оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="true" order="1" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -504,6 +744,16 @@
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="false" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -585,6 +835,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="16" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="17" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="CausesCancellation" displayName="Причины списания оборудования" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -593,10 +853,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="ExpressTicketCategories" displayName="Категории ПД АСУ «Экспресс-3»" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="false" order="2" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -628,6 +908,16 @@
                 <lookupEntitySearchAttributes>Group</lookupEntitySearchAttributes>
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="Organizations" displayName="Организации" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -646,10 +936,30 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="4" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="5" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
         <lookup version="1" name="Positions" displayName="Должности" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
             <simpleAttribute name="Name" displayName="Наименование" description="" readOnly="false" hidden="false" nullable="false" order="1" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="2" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="3" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
@@ -676,6 +986,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="5" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="6" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
             </simpleAttribute>
             <codeAttribute name="AutoID" displayName="Системный код" description="" readOnly="false" hidden="false" nullable="false" order="0" searchable="true" displayable="true" mainDisplayable="true" useAttributeNameForDisplay="false" simpleDataType="Integer" unique="true"/>
         </lookup>
@@ -832,6 +1152,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </arrayAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="24" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="25" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <complexAttribute name="StationEquipment" displayName="Категория оборудования" description="" readOnly="false" hidden="false" nullable="false" order="24" minCount="0" nestedEntityName="StationEquipment"/>
         </register>
         <register version="1" name="Staff" displayName="Сотрудники" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -951,6 +1281,16 @@
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">true</lookupLink>
             </arrayAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="31" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="32" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
             <complexAttribute name="PhoneNumber" displayName="Рабочий номер тел." description="" readOnly="false" hidden="false" nullable="false" order="15" minCount="0" nestedEntityName="PhoneNumber"/>
         </register>
         <register version="1" name="KE" displayName="Оборудование" description="" dashboardVisible="false" flyweight="false" hierarchical="false" maxHierarchyLevel="0">
@@ -1064,6 +1404,16 @@
                 <lookupLink xmlns="">true</lookupLink>
             </simpleAttribute>
             <simpleAttribute name="Notes" displayName="Примечания" description="" readOnly="false" hidden="false" nullable="true" order="21" searchable="false" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="false" searchCaseInsensitive="false" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="UpdateUser" displayName="Кем обновлено" description="" readOnly="false" hidden="false" nullable="true" order="22" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
+                <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
+                <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
+                <lookupLink xmlns="">false</lookupLink>
+            </simpleAttribute>
+            <simpleAttribute name="Status" displayName="Статус записи" description="" readOnly="false" hidden="false" nullable="true" order="23" searchable="true" displayable="true" mainDisplayable="false" useAttributeNameForDisplay="false" simpleDataType="String" enumDataType="" linkDataType="" unique="false" searchMorphologically="true" searchCaseInsensitive="true" searchWithTransliteration="false" lookupEntityType="">
                 <customProperties name="DATACARD_ATTRIBUTE_PREVIEW_TYPE" value="default"/>
                 <customProperties name="DATACARD_ATTRIBUTE_TYPE" value="default"/>
                 <lookupLink xmlns="">false</lookupLink>
